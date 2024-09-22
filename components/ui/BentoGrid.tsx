@@ -100,14 +100,14 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg max-w-96 z-10 lg:text-3xl">
+          <div className="font-sans font-bold text-lg max-w-96 z-10 xl:text-3xl lg:text-2xl">
             {title}
           </div>
 
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className="flex gap-1 w-fit absolute lg:gap-5 -right-1 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-7">
+            <div className="flex gap-1 w-fit absolute lg:gap-4 -right-1 lg:-right-2">
+              <div className="flex flex-col gap-3 lg:gap-5">
                 {["React.js", "Next.js", "TypeScript"].map((item, id) => (
                   <span
                     key={id}
