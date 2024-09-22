@@ -6,8 +6,8 @@ const Client = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        Some Qoutes from 
+        <span className="text-purple"> famous person</span>
       </h1>
       <div className="flex flex-col mt-24 justify-center items-center">
         <InfiniteMovingCards

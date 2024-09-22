@@ -105,36 +105,46 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+    {
+      quote: "Programming isn't about what you know; it's about what you can figure out.",
+      name: "Chris Pine",
+      title: "Author of 'Learn to Program'"
+    },
+    {
+      quote: "The only way to learn a new programming language is by writing programs in it.",
+      name: "Dennis Ritchie",
+      title: "Co-creator of the C programming language"
+    },
+    {
+      quote: "Code is read much more often than it is written.",
+      name: "Guido van Rossum",
+      title: "Creator of Python"
+    },
+    {
+      quote: "You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.",
+      name: "John Romero",
+      title: "Co-founder of id Software"
+    },
+    {
+      quote: "The code you write makes you a programmer. The code you delete makes you a good one. The code you don’t have to write makes you a great one.",
+      name: "Mario Fusco",
+      title: "Principal Software Engineer at Red Hat"
+    },
+    {
+      quote: "Code is like humor. When you have to explain it, it’s bad.",
+      name: "Cory House",
+      title: "React and JavaScript specialist"
+    },
+    {
+      quote: "Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.",
+      name: "Bill Gates",
+      title: "Co-founder of Microsoft"
+    },
+    {
+      quote: "The most dangerous phrase in the language is, 'We've always done it this way.'",
+      name: "Grace Hopper",
+      title: "Computer pioneer and naval officer"
+    }
 ];
 
 export const companies = [
