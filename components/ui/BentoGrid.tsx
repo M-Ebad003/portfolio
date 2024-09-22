@@ -7,6 +7,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicBtn from "./MagicBtn";
 import { IoCopyOutline } from "react-icons/io5";
+import { revalidatePath } from "next/cache";
 
 export const BentoGrid = ({
   className,
@@ -48,8 +49,12 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    setCopied(true);
     navigator.clipboard.writeText("ebadmuhammad003@gmail.com");
+    setCopied(true);
+
+    setTimeout(()=>{
+      setCopied(false);
+    }, 3000);
   };
   return (
     <div

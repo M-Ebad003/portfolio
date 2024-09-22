@@ -4,6 +4,7 @@ import RecentProjects from '@/components/RecentProjects'
 import { FloatingNav } from '@/components/ui/FloatingNavbar'
 import { navItems } from '@/data'
 import React from 'react'
+import Client from '../components/Client'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Hero/>
         <Grid/>
         <RecentProjects/>
+        <Client/>
       </div>
     </main>
   )
