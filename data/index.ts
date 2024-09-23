@@ -156,28 +156,17 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "vercel",
+    img: "/logoVercel.svg",
+    nameImg: "/vercel2.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Github",
+    img: "/github.svg",
+    nameImg: "/githubName.svg",
   },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  
 ];
 
 export const workExperience = [
