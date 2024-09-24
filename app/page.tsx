@@ -6,6 +6,7 @@ import { navItems } from '@/data'
 import React from 'react'
 import Client from '../components/Client'
 import Experience from '@/components/Experience'
+import Approach from '@/components/Approach'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <RecentProjects/>
         <Client/>
         <Experience/>
+        <Approach/>
       </div>
     </main>
   )

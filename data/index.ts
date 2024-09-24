@@ -157,8 +157,8 @@ export const companies = [
   {
     id: 2,
     name: "vercel",
-    img: "/logoVercel.svg",
-    nameImg: "/vercel2.svg",
+    img: "/logoVercel2.svg",
+    nameImg: "",
   },
   {
     id: 3,
