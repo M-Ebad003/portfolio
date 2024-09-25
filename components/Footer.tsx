@@ -13,8 +13,8 @@ const Footer = () => {
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-1/2 opacity-50"
-          width={'60'}
-          height={'60'}
+          width={"60"}
+          height={"60"}
         />
       </div>
       <div className="flex flex-col items-center">
@@ -35,13 +35,20 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-lg text-base md:font-normal font-light">Copyright &copy; 2024 Ebad</p>
+        <p className="md:text-lg text-base md:font-normal font-light">
+          Copyright &copy; 2024 Ebad
+        </p>
         <div className="mt-3 md:mt-0 flex items-center md:gap-3 gap-4">
-            {socialMedia.map((profile)=>(
-                <div key={profile.id} className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-                    <Image src={profile.img} alt="img" height={25} width={24}/>
-                </div>
-            ))}
+          {socialMedia.map((profile) => (
+            <div
+              key={profile.id}
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+            >
+              <Link target="_blank" href={profile.href}>
+                <Image src={profile.img} alt="img" height={25} width={24} />
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
     </footer>

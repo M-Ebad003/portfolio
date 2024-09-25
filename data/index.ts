@@ -72,11 +72,12 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Docs Flow",
+    des: "Explore Docs Flow an improved Google Docs that manages millions of collaborators in real-time.",
+    img: "/docsflow.png",
+    className: 'w-full h-full',
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
+    link: "https://github.com/M-Ebad003/docs_flow",
   },
   {
     id: 2,
@@ -204,10 +205,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href: ''
+    href: 'https://github.com/M-Ebad003'
   },
   {
     id: 2,
     img: "/link.svg",
+    href: 'https://www.linkedin.com/in/muhammad-ebad-39a944285/'
   },
 ];
