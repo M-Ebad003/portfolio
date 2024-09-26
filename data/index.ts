@@ -73,6 +73,14 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 3,
+    title: "AI Image SaaS ",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "/p3.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/cloudinary.svg"],
+    link: "https://github.com/M-Ebad003/ai-saas-project1",
+  },
+  {
     id: 1,
     title: "Docs Flow",
     des: "Explore Docs Flow an improved Google Docs that manages millions of collaborators in real-time.",
@@ -87,14 +95,6 @@ export const projects = [
     img: "/brainwave.png",
     iconLists: ["/re.svg", "/tail.svg", "/jslogo.svg"],
     link: "https://github.com/M-Ebad003/BrainWave-Website",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/cloudinary.svg"],
-    link: "https://github.com/M-Ebad003/ai-saas-project1",
   },
 ];
 
