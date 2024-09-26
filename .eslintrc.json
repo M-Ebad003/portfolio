@@ -1,3 +1,9 @@
 {
+  "rules": {
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": ["warn"],
+    "@typescript-eslint/naming-convention": "off"
+  },
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
+
