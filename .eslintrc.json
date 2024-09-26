@@ -1,10 +1,4 @@
 {
-  "rules": {
-    "camelcase": "off",
-    "@typescript-eslint/camelcase": ["warn"],
-    "@typescript-eslint/naming-convention": "off",
-    "@typescript-eslint/no-unused-vars": "off"
-  },
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
 
