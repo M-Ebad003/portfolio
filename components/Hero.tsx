@@ -37,7 +37,7 @@ const Hero = () => {
           <p className='text-center text-md md:text-lg lg:text-2xl md:tracking-wider mb-4'>
             Hi,I&apos;m Ebad,a Next/React.js Developer based in Pakistan
           </p>
-          <Link href='#about'>
+          <Link href='#approach'>
             <MagicBtn  title='Show my Approach' icon={<FaLocationArrow/>} position='right'/>
           </Link>
         </div>
