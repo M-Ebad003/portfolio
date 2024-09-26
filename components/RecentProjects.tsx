@@ -27,7 +27,7 @@ const RecentProjects = () => {
                   alt={title}
                   className={`${
                     (id === 1 || id === 2 || id === 4) &&
-                    "absolute -bottom-[55px] rotate-6 h-[250px] w-[510px] md:h-[320px]"
+                    "absolute -bottom-[64px] rotate-6 h-[250px] w-[510px] md:h-[350px]"
                   }  bottom-0 z-10 absolute`}
                 />
               </div>
