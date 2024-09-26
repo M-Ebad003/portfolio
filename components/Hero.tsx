@@ -38,7 +38,7 @@ const Hero = () => {
             Hi,I&apos;m Ebad,a Next/React.js Developer based in Pakistan
           </p>
           <Link href='#about'>
-            <MagicBtn  title='Show my work' icon={<FaLocationArrow/>} position='right'/>
+            <MagicBtn  title='Show my Approach' icon={<FaLocationArrow/>} position='right'/>
           </Link>
         </div>
       </div>

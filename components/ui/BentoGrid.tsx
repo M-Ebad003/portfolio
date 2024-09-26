@@ -7,7 +7,6 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicBtn from "./MagicBtn";
 import { IoCopyOutline } from "react-icons/io5";
-import { revalidatePath } from "next/cache";
 
 export const BentoGrid = ({
   className,
