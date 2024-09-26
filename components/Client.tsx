@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Client = () => {
   return (
-    <div className="py-20" id="testimonials">
+    <div className="py-20" id="quotes">
       <h1 className="heading">
         Discover inspiring quotes from
         <span className="text-purple"> renowned individuals</span>

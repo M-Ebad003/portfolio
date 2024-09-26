@@ -1,5 +1,7 @@
+
+
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About" , link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -75,17 +77,16 @@ export const projects = [
     title: "Docs Flow",
     des: "Explore Docs Flow an improved Google Docs that manages millions of collaborators in real-time.",
     img: "/docsflow.png",
-    className: 'w-full h-full',
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
     link: "https://github.com/M-Ebad003/docs_flow",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "BrainWave-Modern UI/UX website",
+    des: "Its sleek design, seamless animations, and overall user experience set a high standard, serving as a inspiration for future modern applications or websites.",
+    img: "/brainwave.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://github.com/M-Ebad003/BrainWave-Website",
   },
   {
     id: 3,
@@ -94,14 +95,6 @@ export const projects = [
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://github.com/M-Ebad003/ai-saas-project1",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
   },
 ];
 

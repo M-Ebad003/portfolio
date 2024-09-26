@@ -11,7 +11,7 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap justify-center items-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link, className }) => (
+        {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center
@@ -25,7 +25,7 @@ const RecentProjects = () => {
                 <img
                   src={img}
                   alt={title}
-                  className={`${id === 1 && "absolute -bottom-5 h-[300px]"} bottom-0 z-10 absolute`}
+                  className={`${(id === 1 || id===2 || id===4) && "absolute -bottom-10 rotate-6 w-[520px] h-[300px]"} bottom-0 z-10 absolute`}
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
