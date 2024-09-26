@@ -77,7 +77,7 @@ export const projects = [
     title: "Docs Flow",
     des: "Explore Docs Flow an improved Google Docs that manages millions of collaborators in real-time.",
     img: "/docsflow.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg", "/c.svg"],
     link: "https://github.com/M-Ebad003/docs_flow",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     title: "BrainWave-Modern UI/UX website",
     des: "Its sleek design, seamless animations, and overall user experience set a high standard, serving as a inspiration for future modern applications or websites.",
     img: "/brainwave.png",
-    iconLists: ["/re.svg", "/tail.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/jslogo.svg"],
     link: "https://github.com/M-Ebad003/BrainWave-Website",
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     title: "AI Image SaaS ",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/cloudinary.svg"],
     link: "https://github.com/M-Ebad003/ai-saas-project1",
   },
 ];
