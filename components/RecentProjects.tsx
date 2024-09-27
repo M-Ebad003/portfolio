@@ -26,9 +26,9 @@ const RecentProjects = () => {
                   src={img}
                   alt={title}
                   className={`${
-                    (id === 1 || id === 2 || id === 4) &&
-                    "absolute -bottom-16 rotate-6 h-[300px] w-[510px] md:h-[350px]"
-                  }  bottom-0 z-10 absolute`}
+                    (id === 1 || id === 2 || id === 3) &&
+                    "absolute h-[275px] object-center w-[400px] sm:w-[540px] sm:h-[320px]"
+                  }  bottom-0 sm:bottom-6 z-10 absolute`}
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

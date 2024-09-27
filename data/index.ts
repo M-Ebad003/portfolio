@@ -76,7 +76,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS ",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/ai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/cloudinary.svg"],
     link: "https://github.com/M-Ebad003/ai-saas-project1",
   },

@@ -115,7 +115,7 @@ export const BentoGridItem = ({
                 {["React.js", "Next.js", "TypeScript"].map((item, id) => (
                   <span
                     key={id}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 lg:py-4 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
