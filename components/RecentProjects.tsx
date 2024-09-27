@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/PinCont";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -22,7 +23,9 @@ const RecentProjects = () => {
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
-                <img
+                <Image
+                  width={"540"}
+                  height={"33"}
                   src={img}
                   alt={title}
                   className={`${
