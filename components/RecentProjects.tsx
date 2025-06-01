@@ -28,10 +28,10 @@ const RecentProjects = () => {
                   height={"33"}
                   src={img}
                   alt={title}
-                  className={`${
+                  className={`w-full h-full absolute ${
                     (id === 1 || id === 2 || id === 3) &&
-                    "absolute h-[275px] object-center w-[400px] sm:w-[540px] sm:h-[320px]"
-                  }  bottom-0 sm:bottom-6 z-10 absolute`}
+                    "h-[275px] object-contain w-[400px] sm:w-[540px] sm:h-full"
+                  }  bottom-0 sm:bottom-5 z-10 `}
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

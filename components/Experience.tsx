@@ -10,7 +10,8 @@ const Experience = () => {
         My
         <span className="text-purple"> work experience</span>
       </h1>
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 ">
+      {/* grid lg:grid-cols-4 grid-cols-1 */}
+      <div className="mt-12 flex items-center justify-center gap-10 ">
         {workExperience.map((card) => (
           <Button
             duration={Math.floor(Math.random() * 10000) + 10000}
@@ -40,6 +41,9 @@ const Experience = () => {
                 </h1>
                 <p className=" text-center lg:text-start flex lg:justify-start justify-center text-white-100 mt-3 font-semibold">
                   {card.desc}
+                </p>
+                <p className=" text-center lg:text-start flex lg:justify-start justify-center text-gray-400 mt-3 font-semibold">
+                  Oct 2024 - Present
                 </p>
               </div>
             </div>
